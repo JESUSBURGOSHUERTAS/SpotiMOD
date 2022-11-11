@@ -1,0 +1,45 @@
+:root {
+  --primary: #00b050;
+  --white: #ffffff;
+  --gray10: #b3b3b3;
+  --gray20: #737373;
+  --gray30: #282828;
+  --gray40: #181818;
+  --gray50: #121212;
+  --gray60: #000000;
+  --baseFontFamily: Avenir, Helvetica, sans-serif;
+  --headline1: bold 2rem / normal var(--baseFontFamily);
+  --headline2: bold 1.5rem/1.75rem var(--baseFontFamily);
+  --button: normal 0.875rem/1rem var(--basefontFamily);
+  --subtitle2: roman 0.75rem / normal Avenir;
+  --small: normal 0.75em / normal Avenir;
+  --baseFont: normal 0.875rem/1.375rem var(--baseFontFamily);
+  --baseFontBold: bold 0.875rem/1.375rem var(--baseFontFamily);
+}
+
+body {
+  color: var(--white);
+  background-color: var(--primary);
+  font-family: var(--baseFontFamily);
+}
+
+.button {
+  font-size: 40px;
+  color: green;
+}
+
+.button:hover {
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+}

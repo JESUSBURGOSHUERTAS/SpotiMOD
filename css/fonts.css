@@ -1,0 +1,13 @@
+@font-face {
+  font-family: Avenir;
+  src: url("../font/AvenirLTStd-Black.otf");
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url("../font/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-size: normal;
+}

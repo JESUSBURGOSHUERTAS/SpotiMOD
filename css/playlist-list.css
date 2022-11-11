@@ -1,0 +1,27 @@
+@import "./playlist-a.css";
+@import "./playlist-b.css";
+
+.playlistList-top {
+  display: flex;
+  padding-block: 0.5rem;
+  margin-block-end: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.playlistList-title {
+  font: var(--headline2);
+  color: var(--white);
+  margin-block: 0;
+}
+
+.playlistList-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+}
+
+.playlistList-container > * {
+  flex-shrink: 0;
+}

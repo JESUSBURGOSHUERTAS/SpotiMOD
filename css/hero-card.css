@@ -1,0 +1,36 @@
+.heroCard {
+  display: flex;
+  gap: 1.5rem;
+  margin-block-start: 1.5rem;
+  margin-block-end: 2rem;
+}
+
+.heroCard-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-block-end: 1.75rem;
+}
+
+.heroCard-info * {
+  margin: 0;
+  color: var(--white);
+}
+
+.heroCard-info h3 {
+  font: var(--headline1);
+}
+
+.heroCard-info button {
+  inline-size: 50%;
+}
+
+.heroCard-image {
+  overflow: hidden;
+}
+.heroCard-image img {
+  aspect-ratio: 16/9;
+  height: 100%;
+  overflow: hidden;
+  object-fit: contain;
+}

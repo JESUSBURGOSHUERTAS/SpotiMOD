@@ -1,0 +1,30 @@
+.likedHero {
+  display: flex;
+  gap: 0.5rem;
+  margin-block-end: 1.5rem;
+  padding-block: 1.5rem;
+}
+
+.likedHero-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.likedHero-info * {
+  margin: 0;
+  color: var(--white);
+}
+
+.likedHero p {
+  font: var(--small);
+}
+
+.likedHero h2 {
+  font: var(--headline1);
+}
+
+.likedHero-image img {
+  vertical-align: middle;
+}

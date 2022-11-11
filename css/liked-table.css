@@ -1,0 +1,51 @@
+.likedTable {
+  inline-size: 100%;
+  margin-block-start: 1rem;
+}
+
+.likedTable thead {
+  box-shadow: 0 1px 0 var(--gray10);
+}
+
+.likedTable thead tr th {
+  text-align: start;
+}
+
+.track {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.track-description {
+  padding-block: 0.375rem;
+}
+
+.track-description * {
+  margin: 0;
+  font: var(--small);
+}
+
+.track-description h4 {
+  color: var(--white);
+}
+
+.track-image {
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+}
+
+.track-image img {
+  inline-size: 100%;
+  object-fit: cover;
+}
+
+.likedTable tbody:before {
+  content: "@";
+  display: block;
+  line-height: 1rem;
+  color: transparent;
+}
+
+.likedTable tbody tr {
+  line-height: 3.5rem;
+}

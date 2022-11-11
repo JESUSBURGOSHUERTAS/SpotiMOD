@@ -1,0 +1,30 @@
+@import "./sidebar.css";
+@import "./player-controls.css";
+@import "./player-playback.css";
+@import "./player-volume.css";
+@import "./now-playing.css";
+
+.player {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+  box-shadow: inset 1px 1px 0 var(--gray30);
+}
+
+.player > * {
+  flex: 1;
+}
+
+.player-control {
+  border: none;
+  background: none;
+  color: var(--gray10);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.player-playerVolume {
+  display: flex;
+  justify-content: flex-end;
+}
